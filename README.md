@@ -12,9 +12,9 @@ After container is started and ready to accept new client connections, start jas
 
 ##Starting mysql container
 
-...dockerfile
+'''
 docker run --name <Name for mysql container> -e MYSQL_ROOT_PASSWORD=<Mysql root user password> mysql
-...
+'''
 
 ##Starting jasperserver-cp container
 
