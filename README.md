@@ -21,3 +21,15 @@ docker run --name <Name for mysql container> -e MYSQL_ROOT_PASSWORD=<Mysql root 
 ```
 docker run --name <Name for jasperserver-cp container> -p <Port where tomcat will server jasperserver>:8080 --link <Name for mysql container>:mysql -e MYSQL_HOST=<Name for mysql container> -e MYSQL_PASSWORD=<Mysql root user password> -e MYSQL_PORT=3306 cdorde/myjasperserver:6.2.0
 ```
+
+#Accesing web interfejs
+
+In container host web browser open address
+
+```
+http://localhost/<Port where tomcat will server jasperserver>/jasperserver
+```
+
+Default admin user name is jasperadmin and password is jasperadmin.
+
+Enjoy!
