@@ -27,7 +27,7 @@ docker run --name <Name for jasperserver-cp container> -p <Port where tomcat wil
 In container host web browser open address
 
 ```
-http://localhost/<Port where tomcat will server jasperserver>/jasperserver
+http://localhost:<Port where tomcat will server jasperserver>/jasperserver
 ```
 
 Default admin user name is jasperadmin and password is jasperadmin.
